@@ -1,5 +1,5 @@
 #Pull node image
-FROM node
+FROM node:lts-stretch-slim
 #Set container working dir
 WORKDIR /app
 #Copy package.json to working dir
